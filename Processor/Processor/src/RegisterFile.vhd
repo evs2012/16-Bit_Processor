@@ -1,0 +1,2 @@
+--Implement the 8 x 16 bit register file 
+-- May be implemented behaiorally using arrays

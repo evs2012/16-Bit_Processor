@@ -1,0 +1,2 @@
+-- Implement the 256 address x 16 bit RAM 
+-- May be implemented behaiorally using arrays

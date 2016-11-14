@@ -1,0 +1,2 @@
+-- 2 to 1 mux, 4 buts wide	 
+-- mdae out of 4 2 to 1 mux's
