@@ -1,1 +1,3 @@
-0
+2
+~E 1 "./../src/DataMemory.vhd" 8 RAM
+~A 1 "./../src/DataMemory.vhd" 18 behavioral
