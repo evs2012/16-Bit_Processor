@@ -31,15 +31,28 @@ use ieee.std_logic_1164.all;
 
 ---------------------------------------------
 
-entity Multiplexer_2to1 is
+entity ControlUnit is
 port(	  
 	S		:	in std_logic_vector(0 to 2);
 	MemRead, MemToReg, MemWrite, ALUsource, RegWrite : out std_logic;
 	ALUop : out std_logic_vector(2 downto 0)
 );
-end Multiplexer_2to1;
+end ControlUnit;
 
-architecture Structural of Multiplexer_2to1 is
+architecture Structural of ControlUnit is
 begin
-
+	--ALU control:
+	ALUop(2) <= S(0) AND (NOT S(1)) AND (NOT S(2));
+	ALUop(1) <= S(1) OR (S(0) AND S(2));
+	ALUop(0) <= S(2) OR S(1);
+	--ALU source:
+	ALUsource <= S(1) OR (S(0) AND S(2));
+	--Register Write:
+	RegWrite <= (NOT S(1)) OR S(2);
+	--Memory Read (Mostly dont cares):
+	MemRead	<= S(2);
+	--Memory to Register Mux control: 
+	MemToReg <= S(0) AND S(1) AND S(2);
+	--Memory Write:
+	MemWrite <= S(0) AND S(1) AND (NOT S(2));
 end architecture; 
