@@ -18,6 +18,28 @@
 -- 0	1	0	R		Passthrough A			pa
 -- 0	1	1	R		Passthrough B			pb
 -- 1	0	0	R		Signed Subtraction		sub
--- 1	0	1	I		Load Immediate			ldi
+-- 1	0	1	I		Load Immediate			ldi --passthrough b, alu source is 1, mem to reg is 0
 -- 1	1	0	I		Store halfword			sh
--- 1	1	1	I		Load halfword			lh
+-- 1	1	1	I		Load halfword			lh -- passthrough b, alu source is 1, mem to reg is 1
+
+-- ALU control
+-- 000			001				010	011	100				101	110		111
+-- AdderResult,MultiplierResult,A,B,SubtractorResult,zeros,zeros,zeros
+
+library ieee ;
+use ieee.std_logic_1164.all;
+
+---------------------------------------------
+
+entity Multiplexer_2to1 is
+port(	  
+	S		:	in std_logic_vector(0 to 2);
+	MemRead, MemToReg, MemWrite, ALUsource, RegWrite : out std_logic;
+	ALUop : out std_logic_vector(2 downto 0)
+);
+end Multiplexer_2to1;
+
+architecture Structural of Multiplexer_2to1 is
+begin
+
+end architecture; 
