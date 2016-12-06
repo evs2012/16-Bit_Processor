@@ -43,21 +43,13 @@ Active_lib=
 [IMPLEMENTATION]
 UCF=
 
-[Files.Data]
-.\src\RegisterFile.vhd=VHDL Source Code
-.\src\DataMemory.vhd=VHDL Source Code
-.\src\InstructionMemory.vhd=VHDL Source Code
-.\src\ControlUnit.vhd=VHDL Source Code
-.\src\Multiplexer_2to1_by4.vhd=VHDL Source Code
-.\src\Multiplexer_2to1.vhd=VHDL Source Code
-.\src\Multiplexer_8to1.vhd=VHDL Source Code
-.\src\Multiplexer_8to1_by16.vhd=VHDL Source Code
-.\src\Adder_16.vhd=VHDL Source Code
-.\src\ALU_16.vhd=VHDL Source Code
-.\src\FullAdder.vhd=VHDL Source Code
-.\src\HalfAdder.vhd=VHDL Source Code
-.\src\Multiplier_16.vhd=VHDL Source Code
-.\src\Subtractor_16.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
 
 [Files]
 /HalfAdder.vhd=-1
@@ -74,10 +66,22 @@ UCF=
 /InstructionMemory.vhd=-1
 /DataMemory.vhd=-1
 /ControlUnit.vhd=-1
+/Processor.vhd=-1
 
-[SpecTracer]
-WindowVisible=0
-[HierarchyViewer]
-HierarchyInformation=
-ShowHide=ShowTopLevel
-Selected=
+[Files.Data]
+.\src\HalfAdder.vhd=VHDL Source Code
+.\src\FullAdder.vhd=VHDL Source Code
+.\src\Adder_16.vhd=VHDL Source Code
+.\src\Subtractor_16.vhd=VHDL Source Code
+.\src\Multiplier_16.vhd=VHDL Source Code
+.\src\Multiplexer_8to1.vhd=VHDL Source Code
+.\src\Multiplexer_8to1_by16.vhd=VHDL Source Code
+.\src\ALU_16.vhd=VHDL Source Code
+.\src\Multiplexer_2to1.vhd=VHDL Source Code
+.\src\Multiplexer_2to1_by4.vhd=VHDL Source Code
+.\src\RegisterFile.vhd=VHDL Source Code
+.\src\InstructionMemory.vhd=VHDL Source Code
+.\src\DataMemory.vhd=VHDL Source Code
+.\src\ControlUnit.vhd=VHDL Source Code
+.\src\Processor.vhd=VHDL Source Code
+

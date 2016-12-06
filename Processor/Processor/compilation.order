@@ -12,3 +12,4 @@
 .\src\InstructionMemory.vhd
 .\src\DataMemory.vhd
 .\src\ControlUnit.vhd
+.\src\Processor.vhd
