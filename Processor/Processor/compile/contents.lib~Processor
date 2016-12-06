@@ -1,3 +1,7 @@
-2
+6
+~E 1 "./../src/ControlUnit.vhd" 34 ControlUnit
+~A 1 "./../src/ControlUnit.vhd" 42 Structural
+~E 1 "./../src/ControlUnit.vhd" 34 Multiplexer_2to1
+~A 1 "./../src/ControlUnit.vhd" 42 Structural
 ~E 1 "./../src/DataMemory.vhd" 8 RAM
 ~A 1 "./../src/DataMemory.vhd" 18 behavioral
