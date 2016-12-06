@@ -7,7 +7,7 @@
 .\src\Multiplexer_8to1_by16.vhd
 .\src\ALU_16.vhd
 .\src\Multiplexer_2to1.vhd
-.\src\Multiplexer_2to1_by4.vhd
+.\src\Multiplexer_2to1_by16.vhd
 .\src\RegisterFile.vhd
 .\src\InstructionMemory.vhd
 .\src\DataMemory.vhd

@@ -3,15 +3,15 @@ USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.NUMERIC_STD.ALL;
 
 ENTITY reg is
-	PORT(clk, regWrite: IN STD_LOGIC;
-		dataIN: IN UNSIGNED (15 DOWNTO 0);
-		dr, sr1, sr2: IN UNSIGNED (4 DOWNTO 0);
-		readReg1, readReg2: OUT (15 DOWNTO 0)
+	PORT(clk, regWrite: IN std_logic;
+		WriteData: IN std_logic_vector(15 DOWNTO 0);
+		WriteRegister, Reg1, Reg2: IN std_logic_vector(4 DOWNTO 0);
+		Reg1Data, Reg2Data: OUT std_logic_vector(15 DOWNTO 0)
 		);
 END ENTITY reg;
 
 ARCHITECTURE behavioral OF reg IS
-	TYPE ram IS ARRAY (0 TO 7) OF UNSIGNED (15 DOWNTO 0);
+	TYPE ram IS ARRAY (0 TO 7) OF std_logic_vector(15 DOWNTO 0);
 	SIGNAL regs: ram := (OTHERS => (OTHERS=> '0'));
 
 BEGIN
@@ -19,10 +19,10 @@ BEGIN
 		BEGIN
 			IF clk'EVENT AND clk = '1' THEN
 				IF regWrite = '1' THEN
-					regs(TO_INTEGER(dr)) <= dataIN;
+					regs(TO_INTEGER(unsigned(WriteRegister))) <= WriteData;
 				END IF;
 			END IF;
 		END PROCESS;
-	readReg1 <= regs(TO_INTEGER(sr1));
-	readReg2 <= regs(TO_INTEGER(sr2));
+	Reg1Data <= regs(TO_INTEGER(unsigned(Reg1)));
+	Reg2Data <= regs(TO_INTEGER(unsigned(Reg2)));
 END behavioral;

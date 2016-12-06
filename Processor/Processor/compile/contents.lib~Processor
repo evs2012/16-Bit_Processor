@@ -1,7 +1,13 @@
-7
+21
 ~E 1 "./../src/ControlUnit.vhd" 34 ControlUnit
 ~A 1 "./../src/ControlUnit.vhd" 42 Structural
-~E 1 "./../src/ControlUnit.vhd" 34 Multiplexer_2to1
-~A 1 "./../src/ControlUnit.vhd" 42 Structural
+~E 1 "./../src/Multiplexer_2to1.vhd" 6 Multiplexer_2to1
+~A 1 "./../src/Multiplexer_2to1.vhd" 14 Structural
+~E 1 "./../src/Multiplexer_2to1_by16.vhd" 8 Multiplexer_2to1_by16
+~A 1 "./../src/Multiplexer_2to1_by16.vhd" 16 Structural
+~E 1 "./../src/Processor.vhd" 5 Processor
+~A 1 "./../src/Processor.vhd" 9 structure
 ~E 1 "./../src/DataMemory.vhd" 8 RAM
 ~A 1 "./../src/DataMemory.vhd" 18 behavioral
+~E 1 "./../src/RegisterFile.vhd" 5 reg
+~A 1 "./../src/RegisterFile.vhd" 13 behavioral
