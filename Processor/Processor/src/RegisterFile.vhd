@@ -4,14 +4,14 @@ USE IEEE.NUMERIC_STD.ALL;
 
 ENTITY reg is
 	PORT(clk, regWrite: IN STD_LOGIC;
-		dataIN: IN UNSIGNED (16 DOWNTO 0);
+		dataIN: IN UNSIGNED (15 DOWNTO 0);
 		dr, sr1, sr2: IN UNSIGNED (4 DOWNTO 0);
-		readReg1, readReg2: OUT (16 DOWNTO 0)
+		readReg1, readReg2: OUT (15 DOWNTO 0)
 		);
 END ENTITY reg;
 
 ARCHITECTURE behavioral OF reg IS
-	TYPE ram IS ARRAY (0 TO 8) OF UNSIGNED (16 DOWNTO 0);
+	TYPE ram IS ARRAY (0 TO 7) OF UNSIGNED (15 DOWNTO 0);
 	SIGNAL regs: ram := (OTHERS => (OTHERS=> '0'));
 
 BEGIN
