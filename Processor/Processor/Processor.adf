@@ -51,23 +51,6 @@ HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
 
-[Files]
-/HalfAdder.vhd=-1
-/FullAdder.vhd=-1
-/Adder_16.vhd=-1
-/Subtractor_16.vhd=-1
-/Multiplier_16.vhd=-1
-/Multiplexer_8to1.vhd=-1
-/Multiplexer_8to1_by16.vhd=-1
-/ALU_16.vhd=-1
-/Multiplexer_2to1.vhd=-1
-/Multiplexer_2to1_by16.vhd=-1
-/RegisterFile.vhd=-1
-/InstructionMemory.vhd=-1
-/DataMemory.vhd=-1
-/ControlUnit.vhd=-1
-/Processor.vhd=-1
-
 [Files.Data]
 .\src\HalfAdder.vhd=VHDL Source Code
 .\src\FullAdder.vhd=VHDL Source Code
@@ -84,4 +67,23 @@ Selected=
 .\src\DataMemory.vhd=VHDL Source Code
 .\src\ControlUnit.vhd=VHDL Source Code
 .\src\Processor.vhd=VHDL Source Code
+.\src\SignExtend.vhd=VHDL Source Code
+
+[Files]
+/HalfAdder.vhd=-1
+/FullAdder.vhd=-1
+/Adder_16.vhd=-1
+/Subtractor_16.vhd=-1
+/Multiplier_16.vhd=-1
+/Multiplexer_8to1.vhd=-1
+/Multiplexer_8to1_by16.vhd=-1
+/ALU_16.vhd=-1
+/Multiplexer_2to1.vhd=-1
+/Multiplexer_2to1_by16.vhd=-1
+/RegisterFile.vhd=-1
+/InstructionMemory.vhd=-1
+/DataMemory.vhd=-1
+/ControlUnit.vhd=-1
+/SignExtend.vhd=-1
+/Processor.vhd=-1
 

@@ -1,4 +1,4 @@
-21
+23
 ~E 1 "./../src/ControlUnit.vhd" 34 ControlUnit
 ~A 1 "./../src/ControlUnit.vhd" 42 Structural
 ~E 1 "./../src/Multiplexer_2to1.vhd" 6 Multiplexer_2to1
@@ -11,3 +11,5 @@
 ~A 1 "./../src/DataMemory.vhd" 18 behavioral
 ~E 1 "./../src/RegisterFile.vhd" 5 reg
 ~A 1 "./../src/RegisterFile.vhd" 13 behavioral
+~E 1 "./../src/SignExtend.vhd" 6 SignExtend
+~A 1 "./../src/SignExtend.vhd" 13 Structural

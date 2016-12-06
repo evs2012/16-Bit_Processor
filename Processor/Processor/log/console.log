@@ -1,0 +1,14 @@
+acom -O3 -work Processor -2002  $dsn/src/SignExtend.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: e:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
+# Compile Entity "SignExtend"
+# Compile Architecture "Structural" of Entity "SignExtend"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/SignExtend.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: e:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
+# Compile Entity "SignExtend"
+# Compile Architecture "Structural" of Entity "SignExtend"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]

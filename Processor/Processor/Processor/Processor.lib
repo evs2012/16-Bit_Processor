@@ -1,7 +1,7 @@
-timestamp=1481067177498
+timestamp=1481067572631
 
 [~A]
-ModifyID=21
+ModifyID=23
 Version=73
 
 [controlunit]
@@ -68,10 +68,21 @@ R=./../src/RegisterFile.vhd|5
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|2f1e3c7d0bba65891d8ae1d559ceb6dd6cb1edabd68ab1cf589fad8af6b51e08
 Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4aa7b60ee5623382248f95355e69cbe61
 
+[signextend]
+A/structural=A/Structural 21|./../src/SignExtend.vhd|13|1*27415
+BinI32/structural=3*2445
+I=0*17160
+I/structural=I/Structural 0*18151
+M=11|0|vc6|1481067528370|./../src/SignExtend.vhd|0*16827*0x824c5f5e292a60b8102929d96d13c707fd618769|0*17075*0x5eebbfaf24833dd780412b1f91e05209
+M/structural=M/Structural 21|0|vc6|1481067572604|./../src/SignExtend.vhd|0*17657*0xe185a3152912b6462cebafd1ec0370f13197499b|0*18052*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/SignExtend.vhd|6
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|f229b90f8d448964ce8e8703aee8e51de82757884cf01ea5c6a7b9482f234a92a23bd476d4e5e576e04ecfde8a45f994
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eba4c0f4fdd6294583eafa45ef21a13322
+
 [~MFT]
-0=8|0Processor.mgf|16389|7318
-1=2|1Processor.mgf|23391|13141
-3=0|3Processor.mgf|2189|496
+0=8|0Processor.mgf|18151|7711
+1=2|1Processor.mgf|27415|13993
+3=2|3Processor.mgf|2445|496
 
 [~U]
 controlunit=ControlUnit 11|0*3425|
@@ -80,3 +91,4 @@ multiplexer_2to1_by16=Multiplexer_2to1_by16 11|0*11667|
 processor=Processor 11|0*4829|
 ram=RAM 11|0*0|
 reg=11|0*7728|
+signextend=SignExtend 11|0*16622|

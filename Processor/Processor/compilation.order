@@ -12,4 +12,5 @@
 .\src\InstructionMemory.vhd
 .\src\DataMemory.vhd
 .\src\ControlUnit.vhd
+.\src\SignExtend.vhd
 .\src\Processor.vhd
