@@ -34,6 +34,13 @@ Component Multiplexer_2to1_by16 is
 	);
 end Component Multiplexer_2to1_by16;
 
+component SignExtend is
+	port(	  
+		input	:	in std_logic_vector(7 downto 0);
+		output	:	out std_logic_vector(15 downto 0)
+	);
+end component SignExtend;
+
 -----------------------------------------------------------------------
 -- Signals:
 -----------------------------------------------------------------------
@@ -41,6 +48,7 @@ SIGNAL readReg1, readReg2, dataIn, instr: std_logic_vector(15 DOWNTO 0);
 --control signals
 SIGNAL ALUop : std_logic_vector(2 downto 0);
 SIGNAL MemRead, MemToReg, MemWrite, ALUsource, RegWrite : std_logic;
+SIGNAL SignExtendedValue, regFileDataOut1, regFileDataOut2, ALUinputB, RegWriteData : std_logic_vector(15 downto 0);
 
 -----------------------------------------------------------------------
 -- Aliasing
@@ -64,11 +72,11 @@ BEGIN
 	--Control Unit
 	CU: ControlUnit port map (opcode ,MemRead, MemToReg, MemWrite, ALUsource, RegWrite, ALUop);
 	--Register File
-	
+	RF: reg port map (clk, RegWrite, RegWriteData, b, c, a,	regFileDataOut1, regFileDataOut2); --not 100% on the b,c,a placement
 	--Sign Extender
-	
+	SE: SignExtend port map (value, SignExtendedValue);
 	--ALU Source Mux
-	
+	ALUSM: Multiplexer_2to1_by16 port map (regFileDataOut2, SignExtendedValue, ALUsource, ALUinputB)
 	--ALU
 	
 	--Data Memory
