@@ -10,6 +10,21 @@ ARCHITECTURE structure OF Processor IS
 -----------------------------------------------------------------------
 -- Component Declaration
 -----------------------------------------------------------------------
+component PC is
+	port(	  
+		clk		:	in std_logic;
+		PC_next	:	in std_logic_vector(4 downto 0);
+		PC		:	out std_logic_vector(4 downto 0)
+	);
+end component PC;
+
+component PC_increment is
+	port(	  
+		PC		:	in std_logic_vector(4 downto 0);
+		PC_next	:	out std_logic_vector(4 downto 0)
+	);
+end component PC_increment;
+
 COMPONENT reg is
 	PORT(clk, regWrite: IN std_logic;
 		WriteData: IN std_logic_vector(15 DOWNTO 0);
@@ -41,14 +56,24 @@ component SignExtend is
 	);
 end component SignExtend;
 
+component ALU_16 is
+	port(	  
+		A, B		:	in std_logic_vector(15 downto 0);
+		R			:	out std_logic_vector(15 downto 0);
+		S0,S1,S2	:	in std_logic;
+		Status		:	out std_logic_vector(2 downto 0)
+	);
+end component ALU_16;
+
 -----------------------------------------------------------------------
 -- Signals:
 -----------------------------------------------------------------------
 SIGNAL readReg1, readReg2, dataIn, instr: std_logic_vector(15 DOWNTO 0);
 --control signals
-SIGNAL ALUop : std_logic_vector(2 downto 0);
+SIGNAL ALUop, ALUstatus : std_logic_vector(2 downto 0);
 SIGNAL MemRead, MemToReg, MemWrite, ALUsource, RegWrite : std_logic;
-SIGNAL SignExtendedValue, regFileDataOut1, regFileDataOut2, ALUinputB, RegWriteData : std_logic_vector(15 downto 0);
+SIGNAL SignExtendedValue, regFileDataOut1, regFileDataOut2, ALUinputB, RegWriteData, ALUresult : std_logic_vector(15 downto 0);
+SIGNAL PC, PC_next : std_logic_vector(5 downto 0);
 
 -----------------------------------------------------------------------
 -- Aliasing
@@ -66,9 +91,11 @@ ALIAS value: std_logic_vector(7 DOWNTO 0) IS instr(7 DOWNTO 0);
 
 BEGIN
 	--Program Counter
-	
+	PC: PC port map (clk, PC_next, PC);
+	--Program Counter Incrementer
+	PCI: PC_increment port map (PC, PC_next);
 	--Instruction Memory
-	
+	IM: InstructionMemory port map (PC, clk, instr);
 	--Control Unit
 	CU: ControlUnit port map (opcode ,MemRead, MemToReg, MemWrite, ALUsource, RegWrite, ALUop);
 	--Register File
@@ -78,7 +105,7 @@ BEGIN
 	--ALU Source Mux
 	ALUSM: Multiplexer_2to1_by16 port map (regFileDataOut2, SignExtendedValue, ALUsource, ALUinputB)
 	--ALU
-	
+	ALU: ALU_16	port map (regFileDataOut1, ALUinputB, ALUresult, ALUop(0), ALUop(1), ALUop(2), ALUstatus);
 	--Data Memory
 	
 	--Mem To Reg Mux
