@@ -66,8 +66,10 @@ Selected=
 .\src\InstructionMemory.vhd=VHDL Source Code
 .\src\DataMemory.vhd=VHDL Source Code
 .\src\ControlUnit.vhd=VHDL Source Code
-.\src\Processor.vhd=VHDL Source Code
 .\src\SignExtend.vhd=VHDL Source Code
+.\src\Processor.vhd=VHDL Source Code
+.\src\PC_increment.vhd=VHDL Source Code
+.\src\ProgramCounter.vhd=VHDL Source Code
 
 [Files]
 /HalfAdder.vhd=-1
@@ -85,5 +87,7 @@ Selected=
 /DataMemory.vhd=-1
 /ControlUnit.vhd=-1
 /SignExtend.vhd=-1
+/PC_increment.vhd=-1
+/ProgramCounter.vhd=-1
 /Processor.vhd=-1
 

@@ -13,4 +13,6 @@
 .\src\DataMemory.vhd
 .\src\ControlUnit.vhd
 .\src\SignExtend.vhd
+.\src\PC_increment.vhd
+.\src\ProgramCounter.vhd
 .\src\Processor.vhd
