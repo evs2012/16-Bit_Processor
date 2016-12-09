@@ -16,3 +16,7 @@
 .\src\PC_increment.vhd
 .\src\ProgramCounter.vhd
 .\src\Processor.vhd
+.\src\TestBench\ram_TB.vhd
+.\src\TestBench\instructionmemory_TB.vhd
+.\src\TestBench\controlunit_TB.vhd
+.\src\TestBench\processor_TB.vhd

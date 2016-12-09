@@ -1,9 +1,52 @@
-Active-HDL 10.2.3312.5682  2016-12-06 17:57:05
+Active-HDL 10.2.3312.5682  2016-12-09 11:52:19
 
 Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(processor_tb)
 
 
-----------------------------------------------------------------------------------
-Library                 | Comment
-----------------------------------------------------------------------------------
-----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+Entity                | Architecture    | Library   | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+processor_tb          | TB_ARCHITECTURE | processor |      | 10.2.3312.5682  (Windows) | -O3
+Processor             | structure       | processor |      | 10.2.3312.5682  (Windows) | -O3
+PC                    | behavioral      | processor |      | 10.2.3312.5682  (Windows) | -O3
+PC_increment          | behavioral      | processor |      | 10.2.3312.5682  (Windows) | -O3
+InstructionMemory     | behavioral      | processor |      | 10.2.3312.5682  (Windows) | -O3
+ControlUnit           | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+reg                   | behavioral      | processor |      | 10.2.3312.5682  (Windows) | -O3
+SignExtend            | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+Multiplexer_2to1_by16 | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+ALU_16                | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+RAM                   | behavioral      | processor |      | 10.2.3312.5682  (Windows) | -O3
+Multiplexer_2to1      | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+Adder_16              | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+Subtractor_16         | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+Multiplier_16         | behavioral      | processor |      | 10.2.3312.5682  (Windows) | -O3
+Multiplexer_8to1_by16 | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+HalfAdder             | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+FullAdder             | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+Multiplexer_8to1      | structural      | processor |      | 10.2.3312.5682  (Windows) | -O3
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+VHDL Package                            | Library   | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+standard                                | std       |      |                           | <unavailable>
+TEXTIO                                  | std       |      | 10.2.3312.5682  (Windows) |  -2008
+std_logic_1164                          | ieee      |      | 10.2.3312.5682  (Windows) |  -2008
+NUMERIC_STD                             | ieee      |      | 10.2.3312.5682  (Windows) |  -2008
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+Library                                 | Comment
+-------------------------------------------------------------------------------------------------------------
+ieee                                    | Standard IEEE packages library
+processor                               | None
+std                                     | Standard VHDL library
+-------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+processor_tb processor_tb TB_ARCHITECTURE
+
+
+The performance of simulation is reduced. Version EDU Edition

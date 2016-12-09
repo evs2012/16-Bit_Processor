@@ -1,4 +1,7 @@
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/Processor.vhd
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'E:/School/ECE 443 Computer Architecture/16-Bit_Processor/Processor/Processor/src/ControlUnit_tb_Simulation.awc' connected to 'E:/School/ECE 443 Computer Architecture/16-Bit_Processor/Processor/Processor/src/wave.asdb'.
+acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/PC_increment.vhd $dsn/src/ProgramCounter.vhd $dsn/src/Processor.vhd $dsn/src/TestBench/ram_TB.vhd $dsn/src/TestBench/instructionmemory_TB.vhd $dsn/src/TestBench/controlunit_TB.vhd $dsn/src/TestBench/processor_TB.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
@@ -46,263 +49,238 @@ acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $d
 # File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
 # Compile Entity "SignExtend"
 # Compile Architecture "Structural" of Entity "SignExtend"
+# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\PC_increment.vhd
+# Compile Entity "PC_increment"
+# Compile Architecture "Behavioral" of Entity "PC_increment"
+# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ProgramCounter.vhd
+# Compile Entity "PC"
+# Compile Architecture "Behavioral" of Entity "PC"
 # File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
 # Compile Entity "Processor"
 # Compile Architecture "structure" of Entity "Processor"
-# Error: COMP96_0015: Processor.vhd : (108, 2): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.6 [s]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Error: COMP96_0122: Processor.vhd : (76, 1): Symbol "PC" has already been declared in this scope.
-# Error: COMP96_0122: Processor.vhd : (94, 2): Symbol "PC" has already been declared in this scope.
-# Error: COMP96_0641: Processor.vhd : (94, 6): Name "PC" does not refer to a component declaration.
-# Error: COMP96_0367: Processor.vhd : (94, 24): Improper array length (6). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (94, 33): Improper array length (6). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (96, 30): Improper array length (6). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (96, 34): Improper array length (6). Expected length is 5.
-# Error: COMP96_0134: Processor.vhd : (98, 6): Cannot find component declaration.
-# Error: COMP96_0367: Processor.vhd : (102, 49): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 52): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 55): Improper array length (4). Expected length is 5.
-# Compile failure 11 Errors 0 Warnings  Analysis time :  0.3 [s]
+# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\TestBench\ram_TB.vhd
+# Compile Entity "ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "ram_tb"
+# Compile Configuration "TESTBENCH_FOR_ram"
+# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\TestBench\instructionmemory_TB.vhd
+# Compile Entity "instructionmemory_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "instructionmemory_tb"
+# Compile Configuration "TESTBENCH_FOR_instructionmemory"
+# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\TestBench\controlunit_TB.vhd
+# Compile Entity "controlunit_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "controlunit_tb"
+# Compile Configuration "TESTBENCH_FOR_controlunit"
+# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\TestBench\processor_TB.vhd
+# Compile Entity "processor_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "processor_tb"
+# Compile Configuration "TESTBENCH_FOR_processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+asim -O5 +access +r +m+controlunit_tb controlunit_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6846 kB (elbread=1023 elab2=5673 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\wave.asdb
+#  11:38 AM, Friday, December 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: controlunit_tb (TB_ARCHITECTURE)
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+processor_tb processor_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7025 kB (elbread=1028 elab2=5844 kernel=152 sdf=0)
+# KERNEL: ASDB file was created in location E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\wave.asdb
+#  11:39 AM, Friday, December 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: processor_tb (TB_ARCHITECTURE)
+# 27 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'E:/School/ECE 443 Computer Architecture/16-Bit_Processor/Processor/Processor/src/wave.asdb'.
+run @1us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/PCI,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/RF,  Process: line__26.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/RF,  Process: line__27.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/ALU/multiply,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/DM,  Process: line__36.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /processor_tb/UUT/ALU/multiply,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 20 ns,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# RUNTIME: Fatal Error: RUNTIME_0047 RegisterFile.vhd (22): Index 10 out of range (0 to 7).
+# KERNEL: Time: 20 ns,  Iteration: 1,  Instance: /processor_tb/UUT/RF,  Process: line__18.
+# KERNEL: Stopped at time 20 ns + 1.
+# Error: Fatal error occurred during simulation.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+processor_tb processor_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7025 kB (elbread=1028 elab2=5844 kernel=152 sdf=0)
+# KERNEL: ASDB file was created in location E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\wave.asdb
+#  11:40 AM, Friday, December 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: processor_tb (TB_ARCHITECTURE)
+# Waveform file 'untitled.awc' connected to 'E:/School/ECE 443 Computer Architecture/16-Bit_Processor/Processor/Processor/src/wave.asdb'.
+run @10us
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/PCI,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/RF,  Process: line__26.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/RF,  Process: line__27.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/ALU/multiply,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/DM,  Process: line__36.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /processor_tb/UUT/ALU/multiply,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 20 ns,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# RUNTIME: Fatal Error: RUNTIME_0047 RegisterFile.vhd (22): Index 10 out of range (0 to 7).
+# KERNEL: Time: 20 ns,  Iteration: 1,  Instance: /processor_tb/UUT/RF,  Process: line__18.
+# KERNEL: Stopped at time 20 ns + 1.
+# Error: Fatal error occurred during simulation.
+run @1.02us
+endsim
+#  Simulation has been stopped
 acom -O3 -work Processor -2002  $dsn/src/Processor.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
 # Compile Entity "Processor"
 # Compile Architecture "structure" of Entity "Processor"
-# Error: COMP96_0122: Processor.vhd : (76, 1): Symbol "PC" has already been declared in this scope.
-# Error: COMP96_0122: Processor.vhd : (94, 2): Symbol "PC" has already been declared in this scope.
-# Error: COMP96_0641: Processor.vhd : (94, 6): Name "PC" does not refer to a component declaration.
-# Error: COMP96_0134: Processor.vhd : (98, 6): Cannot find component declaration.
-# Error: COMP96_0367: Processor.vhd : (102, 49): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 52): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 55): Improper array length (4). Expected length is 5.
-# Compile failure 7 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/Processor.vhd
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/TestBench/processor_TB.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
+# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\TestBench\processor_TB.vhd
+# Compile Entity "processor_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "processor_tb"
+# Compile Configuration "TESTBENCH_FOR_processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work Processor -2002  $dsn/src/Processor.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
 # Compile Entity "Processor"
 # Compile Architecture "structure" of Entity "Processor"
-# Error: COMP96_0122: Processor.vhd : (94, 2): Symbol "PC" has already been declared in this scope.
-# Error: COMP96_0641: Processor.vhd : (94, 6): Name "PC" does not refer to a component declaration.
-# Error: COMP96_0104: Processor.vhd : (96, 30): Undefined type of expression.
-# Error: COMP96_0134: Processor.vhd : (98, 6): Cannot find component declaration.
-# Error: COMP96_0367: Processor.vhd : (102, 49): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 52): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 55): Improper array length (4). Expected length is 5.
-# Compile failure 7 Errors 0 Warnings  Analysis time :  0.2 [s]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Error: COMP96_0122: Processor.vhd : (94, 2): Symbol "PC" has already been declared in this scope.
-# Error: COMP96_0641: Processor.vhd : (94, 6): Name "PC" does not refer to a component declaration.
-# Error: COMP96_0134: Processor.vhd : (98, 6): Cannot find component declaration.
-# Error: COMP96_0367: Processor.vhd : (102, 49): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 52): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 55): Improper array length (4). Expected length is 5.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  0.2 [s]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Warning: ELAB1_0026: Processor.vhd : (94, 0): There is no default binding for component "PC". (No entity named "PC" was found).
-# Warning: ELAB1_0026: Processor.vhd : (96, 0): There is no default binding for component "PC_increment". (No entity named "PC_increment" was found).
-# Error: COMP96_0134: Processor.vhd : (98, 6): Cannot find component declaration.
-# Error: COMP96_0367: Processor.vhd : (102, 49): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 52): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 55): Improper array length (4). Expected length is 5.
-# Compile failure 4 Errors 2 Warnings  Analysis time :  0.2 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+asim -O5 +access +r +m+processor_tb processor_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7025 kB (elbread=1028 elab2=5844 kernel=152 sdf=0)
+# KERNEL: ASDB file was created in location E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\wave.asdb
+#  11:48 AM, Friday, December 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: processor_tb (TB_ARCHITECTURE)
+# 27 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'E:/School/ECE 443 Computer Architecture/16-Bit_Processor/Processor/Processor/src/wave.asdb'.
+run @100ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/PCI,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/RF,  Process: line__26.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/RF,  Process: line__27.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/ALU/multiply,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/DM,  Process: line__36.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /processor_tb/UUT/ALU/multiply,  Process: line__25.
+# RUNTIME: Fatal Error: RUNTIME_0047 RegisterFile.vhd (27): Index 10 out of range (0 to 7).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /processor_tb/UUT/RF,  Process: line__27.
+# KERNEL: Stopped at time 0 ps + 1.
+# Error: Fatal error occurred during simulation.
+endsim
+#  Simulation has been stopped
 acom -O3 -work Processor -2002  $dsn/src/RegisterFile.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
@@ -310,315 +288,69 @@ acom -O3 -work Processor -2002  $dsn/src/RegisterFile.vhd
 # Compile Entity "reg"
 # Compile Architecture "behavioral" of Entity "reg"
 # Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Warning: ELAB1_0026: Processor.vhd : (94, 0): There is no default binding for component "PC". (No entity named "PC" was found).
-# Warning: ELAB1_0026: Processor.vhd : (96, 0): There is no default binding for component "PC_increment". (No entity named "PC_increment" was found).
-# Error: COMP96_0134: Processor.vhd : (98, 6): Cannot find component declaration.
-# Error: COMP96_0367: Processor.vhd : (102, 49): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 52): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (102, 55): Improper array length (4). Expected length is 5.
-# Compile failure 4 Errors 2 Warnings  Analysis time :  0.2 [s]
-acom -O3 -work Processor -2002  $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Warning: ELAB1_0026: Processor.vhd : (102, 0): There is no default binding for component "PC". (No entity named "PC" was found).
-# Warning: ELAB1_0026: Processor.vhd : (104, 0): There is no default binding for component "PC_increment". (No entity named "PC_increment" was found).
-# Error: ELAB1_0028: Processor.vhd : (110, 0): Entity port length is 4. WriteRegister length is 5.
-# Error: ELAB1_0028: Processor.vhd : (110, 0): Entity port length is 4. Reg1 length is 5.
-# Error: ELAB1_0028: Processor.vhd : (110, 0): Entity port length is 4. Reg2 length is 5.
-# Error: COMP96_0367: Processor.vhd : (110, 49): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (110, 52): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (110, 55): Improper array length (4). Expected length is 5.
-# Compile failure 6 Errors 2 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Warning: ELAB1_0026: Processor.vhd : (102, 0): There is no default binding for component "PC". (No entity named "PC" was found).
-# Warning: ELAB1_0026: Processor.vhd : (104, 0): There is no default binding for component "PC_increment". (No entity named "PC_increment" was found).
-# Error: ELAB1_0028: Processor.vhd : (110, 0): Entity port length is 4. WriteRegister length is 5.
-# Error: ELAB1_0028: Processor.vhd : (110, 0): Entity port length is 4. Reg1 length is 5.
-# Error: ELAB1_0028: Processor.vhd : (110, 0): Entity port length is 4. Reg2 length is 5.
-# Error: COMP96_0367: Processor.vhd : (110, 49): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (110, 52): Improper array length (4). Expected length is 5.
-# Error: COMP96_0367: Processor.vhd : (110, 55): Improper array length (4). Expected length is 5.
-# Compile failure 6 Errors 2 Warnings  Analysis time :  0.2 [s]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Warning: ELAB1_0026: Processor.vhd : (102, 0): There is no default binding for component "PC". (No entity named "PC" was found).
-# Warning: ELAB1_0026: Processor.vhd : (104, 0): There is no default binding for component "PC_increment". (No entity named "PC_increment" was found).
-# Compile success 0 Errors 2 Warnings  Analysis time :  0.2 [s]
-acom -O3 -work Processor -2002  $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Warning: ELAB1_0026: Processor.vhd : (102, 0): There is no default binding for component "PC". (No entity named "PC" was found).
-# Warning: ELAB1_0026: Processor.vhd : (104, 0): There is no default binding for component "PC_increment". (No entity named "PC_increment" was found).
-# Compile success 0 Errors 2 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/PC_increment.vhd $dsn/src/ProgramCounter.vhd $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\PC_increment.vhd
-# Compile Entity "PC_increment"
-# Compile Architecture "Behavioral" of Entity "PC_increment"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ProgramCounter.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-acom -O3 -work Processor -2002  $dsn/src/HalfAdder.vhd $dsn/src/FullAdder.vhd $dsn/src/Adder_16.vhd $dsn/src/Subtractor_16.vhd $dsn/src/Multiplier_16.vhd $dsn/src/Multiplexer_8to1.vhd $dsn/src/Multiplexer_8to1_by16.vhd $dsn/src/ALU_16.vhd $dsn/src/Multiplexer_2to1.vhd $dsn/src/Multiplexer_2to1_by16.vhd $dsn/src/RegisterFile.vhd $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/ControlUnit.vhd $dsn/src/SignExtend.vhd $dsn/src/PC_increment.vhd $dsn/src/ProgramCounter.vhd $dsn/src/Processor.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd
-# Compile Entity "HalfAdder"
-# Compile Architecture "Structural" of Entity "HalfAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd
-# Compile Entity "FullAdder"
-# Compile Architecture "Structural" of Entity "FullAdder"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd
-# Compile Entity "Adder_16"
-# Compile Architecture "Structural" of Entity "Adder_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd
-# Compile Entity "Subtractor_16"
-# Compile Architecture "Structural" of Entity "Subtractor_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd
-# Compile Entity "Multiplier_16"
-# Compile Architecture "Behavioral" of Entity "Multiplier_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd
-# Compile Entity "Multiplexer_8to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd
-# Compile Entity "Multiplexer_8to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_8to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd
-# Compile Entity "ALU_16"
-# Compile Architecture "Structural" of Entity "ALU_16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd
-# Compile Entity "Multiplexer_2to1"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd
-# Compile Entity "Multiplexer_2to1_by16"
-# Compile Architecture "Structural" of Entity "Multiplexer_2to1_by16"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd
-# Compile Entity "reg"
-# Compile Architecture "behavioral" of Entity "reg"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd
-# Compile Entity "InstructionMemory"
-# Compile Architecture "Behavioral" of Entity "InstructionMemory"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd
-# Compile Entity "RAM"
-# Compile Architecture "behavioral" of Entity "RAM"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd
-# Compile Entity "ControlUnit"
-# Compile Architecture "Structural" of Entity "ControlUnit"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd
-# Compile Entity "SignExtend"
-# Compile Architecture "Structural" of Entity "SignExtend"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\PC_increment.vhd
-# Compile Entity "PC_increment"
-# Compile Architecture "Behavioral" of Entity "PC_increment"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ProgramCounter.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd
-# Compile Entity "Processor"
-# Compile Architecture "structure" of Entity "Processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+asim -O5 +access +r +m+processor_tb processor_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7025 kB (elbread=1028 elab2=5845 kernel=152 sdf=0)
+# KERNEL: ASDB file was created in location E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\wave.asdb
+#  11:52 AM, Friday, December 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: processor_tb (TB_ARCHITECTURE)
+# 27 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'E:/School/ECE 443 Computer Architecture/16-Bit_Processor/Processor/Processor/src/wave.asdb'.
+run @100ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/PCI,  Process: line__16.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/RF,  Process: line__26.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/RF,  Process: line__27.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/ALU/multiply,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor_tb/UUT/DM,  Process: line__36.
+# KERNEL: WARNING: NUMERIC_STD.">=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /processor_tb/UUT/ALU/multiply,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 20 ns,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: stopped at time: 100 ns
+run @200ns
+# KERNEL: stopped at time: 200 ns
+run @300ns
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 220 ns,  Iteration: 1,  Instance: /processor_tb/UUT/DM,  Process: RamProc.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 220 ns,  Iteration: 2,  Instance: /processor_tb/UUT/DM,  Process: line__36.
+# KERNEL: stopped at time: 300 ns
+# Adding file E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor_tb_Simulation.asdb ... Done
+# Adding file E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor_tb_Simulation.awc ... Done
+run @400ns
+# RUNTIME: Fatal Error: RUNTIME_0047 InstructionMemory.vhd (42): Index 15 out of range (0 to 14).
+# KERNEL: Time: 310 ns,  Iteration: 1,  Instance: /processor_tb/UUT/IM,  Process: line__20.
+# KERNEL: Stopped at time 310 ns + 1.
+# Error: Fatal error occurred during simulation.
+# Adding file E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor_tb_Simulation.awc ... Done
+#  Simulation has been stopped

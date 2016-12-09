@@ -117,7 +117,7 @@ BEGIN
 	--Control Unit
 	CU: ControlUnit port map (opcode ,MemRead, MemToReg, MemWrite, ALUsource, RegWrite, ALUop);
 	--Register File
-	RF: reg port map (clk, RegWrite, RegWriteData, b, c, a,	regFileDataOut1, regFileDataOut2); --not 100% on the b,c,a placement
+	RF: reg port map (clk, RegWrite, RegWriteData, c, a, b,	regFileDataOut1, regFileDataOut2);
 	--Sign Extender
 	SE: SignExtend port map (value, SignExtendedValue);
 	--ALU Source Mux

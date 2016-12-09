@@ -18,7 +18,7 @@ end InstructionMemory;
 architecture Behavioral of InstructionMemory is
 begin
 	Process(clk)
-		type t_MemArray is array (14 downto 0)
+		type t_MemArray is array (0 to 14)
 		of std_logic_vector(15 downto 0);
 		constant Mem : t_MemArray :=
 		-- instructions are as follows:	

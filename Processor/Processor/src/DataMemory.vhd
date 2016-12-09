@@ -18,7 +18,7 @@ end entity RAM;
 architecture behavioral of RAM is
 
    type ram_type is array (0 to 255) of std_logic_vector(15 downto 0);
-   signal memory : ram_type;
+   signal memory : ram_type := ((others=> (others=>'0')));
    signal read_address : std_logic_vector(15 downto 0);
 
 begin
