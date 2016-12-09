@@ -18,3 +18,4 @@ i<>.\src\PC_increment.vhd
 i<>.\src\ProgramCounter.vhd
 i<>.\src\TestBench\ram_TB.vhd
 i<>.\src\TestBench\instructionmemory_TB.vhd
+i<>.\src\TestBench\controlunit_TB.vhd

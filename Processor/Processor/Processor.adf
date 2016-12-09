@@ -47,7 +47,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=instructionmemory_tb|TB_ARCHITECTURE|0 ram_tb|TB_ARCHITECTURE|0 
+HierarchyInformation=controlunit_tb|TB_ARCHITECTURE|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -77,10 +77,14 @@ TestBench=1
 /ram_tb_Simulation.awc=-1
 /InstructionMemory_tb_Simulation.asdb=-1
 /InstructionMemory_tb_Simulation.awc=-1
+/ControlUnit_tb_Simulation.asdb=-1
+/ControlUnit_tb_Simulation.awc=-1
 TestBench/ram_TB.vhd=-1
 TestBench/ram_TB_runtest.do=-1
 TestBench/instructionmemory_TB.vhd=-1
 TestBench/instructionmemory_TB_runtest.do=-1
+TestBench/controlunit_TB.vhd=-1
+TestBench/controlunit_TB_runtest.do=-1
 
 [Files.Data]
 .\src\HalfAdder.vhd=VHDL Source Code
@@ -105,8 +109,12 @@ TestBench/instructionmemory_TB_runtest.do=-1
 .\src\ram_tb_Simulation.awc=Accelerated Waveform Configuration
 .\src\InstructionMemory_tb_Simulation.asdb=Accelerated Waveform File
 .\src\InstructionMemory_tb_Simulation.awc=Accelerated Waveform Configuration
+.\src\ControlUnit_tb_Simulation.asdb=Accelerated Waveform File
+.\src\ControlUnit_tb_Simulation.awc=Accelerated Waveform Configuration
 .\src\TestBench\ram_TB.vhd=VHDL Test Bench
 .\src\TestBench\ram_TB_runtest.do=Macro
 .\src\TestBench\instructionmemory_TB.vhd=VHDL Test Bench
 .\src\TestBench\instructionmemory_TB_runtest.do=Macro
+.\src\TestBench\controlunit_TB.vhd=VHDL Test Bench
+.\src\TestBench\controlunit_TB_runtest.do=Macro
 
