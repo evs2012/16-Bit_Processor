@@ -11,7 +11,7 @@ ENTITY reg is
 END ENTITY reg;
 
 ARCHITECTURE behavioral OF reg IS
-	TYPE ram IS ARRAY (0 TO 7) OF std_logic_vector(15 DOWNTO 0);
+	TYPE ram IS ARRAY (0 TO 15) OF std_logic_vector(15 DOWNTO 0);
 	SIGNAL regs: ram := (OTHERS => (OTHERS=> '0'));
 
 BEGIN

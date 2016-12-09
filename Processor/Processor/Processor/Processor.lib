@@ -1,265 +1,284 @@
-timestamp=1481301064585
+timestamp=1481302229483
 
 [~A]
-ModifyID=58
+ModifyID=63
 Version=73
 
 [adder_16]
-A/structural=A/Structural 21|./../src/Adder_16.vhd|14|1*441504
-BinI32/structural=3*72477
+A/structural=A/Structural 21|./../src/Adder_16.vhd|14|1*500712
+BinI32/structural=3*80957
 I=0*21021
-I/structural=I/Structural 0*93637
+I/structural=I/Structural 0*105148
 M=11|0|vc6|1481295217296|./../src/Adder_16.vhd|0*20683*0xd500b7f54f45879feec4e114f805bb1b977be2f6|0*20940*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334098|./../src/Adder_16.vhd|0*21123*0x009578dea1e15314ffe76e5596569b3e8907e2d8|0*21738*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301522939|./../src/Adder_16.vhd|0*21123*0x009578dea1e15314ffe76e5596569b3e8907e2d8|0*21738*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/Adder_16.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|19166cca2860a6281aa6bdffbc5c497005633c1d0e51aa9f741bbc9fcc87ec17b49812316c20ba454d0616fb0da081dd
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb4e2ae894361627a986359fb3a4326c8c
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb175fed63ebaa02137c32ccfb70f61b1e
 
 [alu_16]
-A/structural=A/Structural 21|./../src/ALU_16.vhd|15|1*450698
-BinI32/structural=3*74077
+A/structural=A/Structural 21|./../src/ALU_16.vhd|15|1*509906
+BinI32/structural=3*82557
 I=0*28648
-I/structural=I/Structural 0*94529
+I/structural=I/Structural 0*106040
 M=11|0|vc6|1481295217452|./../src/ALU_16.vhd|0*28276*0x774021dd1cdb4fb3d462f33e94e28385c9eaf03e|0*28571*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334201|./../src/ALU_16.vhd|0*28748*0x4e0b3aeff741dde489afb34d9db682c14eacd703|0*30378*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301523097|./../src/ALU_16.vhd|0*28748*0x4e0b3aeff741dde489afb34d9db682c14eacd703|0*30378*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/ALU_16.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|9d812bb684410527617af932b231bdec10727ca323052de8c60eb847960ff043
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebf32a078758b337465b763f1700b2a189
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb02b0e47893f79ed1b44336031b6e1e80
 
 [controlunit]
-A/structural=A/Structural 21|./../src/ControlUnit.vhd|42|1*462815
-BinI32/structural=3*76350
+A/structural=A/Structural 21|./../src/ControlUnit.vhd|42|1*522023
+BinI32/structural=3*84830
 I=0*4075
-I/structural=I/Structural 0*95719
+I/structural=I/Structural 0*107230
 M=11|0|vc6|1481063982473|./../src/ControlUnit.vhd|0*3671*0xca064c9eaf3d47b3210d0cbe5901c1ea55f5c38e|0*3988*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334330|./../src/ControlUnit.vhd|0*4180*0x42d6caf72df946795a3ae382f8c6c5ff55998147|0*4612*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301523268|./../src/ControlUnit.vhd|0*4180*0x42d6caf72df946795a3ae382f8c6c5ff55998147|0*4612*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/ControlUnit.vhd|34
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|49bc9eef0cc431a4d98f9f55b61f1581a1b72c74b362bfaf9c7235d71f436ac2bf59f903a8d26e86413df974f1ed3dcd
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebac8a79a269a81643efb341c52c29c979
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebcfeb9057691ca393141c2e262b9d5b08
 
 [controlunit_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/controlunit_TB.vhd|10|1*495345
-BinI32/tb_architecture=3*79665
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/controlunit_TB.vhd|10|1*541627
+BinI32/tb_architecture=3*88145
 I=0*102456
-I/tb_architecture=I/TB_ARCHITECTURE 0*104064
+I/tb_architecture=I/TB_ARCHITECTURE 0*108914
 M=11|0|vc6|1481301064529|./../src/TestBench/controlunit_TB.vhd|0*102135*0x148b9948a47f9ef02c5ad5f9feae5b495a7aeced|0*102353*0x5eebbfaf24833dd780412b1f91e05209
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1481301064531|./../src/TestBench/controlunit_TB.vhd|0*102626*0x28f542caebcf2fef854430ea79408ae67b1b6ed4|0*103942*0x856b180bf611ec746a6bfcb1befebd18
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1481301523485|./../src/TestBench/controlunit_TB.vhd|0*102626*0x28f542caebcf2fef854430ea79408ae67b1b6ed4|0*103942*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/TestBench/controlunit_TB.vhd|7
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|ddcc2cfd8f4f8eedeb939733b28932bb464f41d55542a5359d7a9399821f482024d1d1e7b01f7f312efa1be10f3b8b78
-Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea7f941f5a567d015989457386a0a87422
+Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea0dd87d01ab596c5403c92a7a082328c9
 
 [fulladder]
-A/structural=A/Structural 21|./../src/FullAdder.vhd|14|1*440110
-BinI32/structural=3*72264
+A/structural=A/Structural 21|./../src/FullAdder.vhd|14|1*499318
+BinI32/structural=3*80744
 I=0*19752
-I/structural=I/Structural 0*93466
+I/structural=I/Structural 0*104977
 M=11|0|vc6|1481295217266|./../src/FullAdder.vhd|0*19445*0xa7ec1e5cf71cd1875bbc22b8c52f4b1df50eeda3|0*19669*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334071|./../src/FullAdder.vhd|0*19855*0x5304d062a5fb51ad2e9fbfe8600360c0346125ed|0*20213*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301522906|./../src/FullAdder.vhd|0*19855*0x5304d062a5fb51ad2e9fbfe8600360c0346125ed|0*20213*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/FullAdder.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|c12a13e6fa1dde32095fc858f2c5d0a25fe0f6cc11f37d48b53e35433dff82a08dde4daa86d027a316691af6cb10ea06
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb806954755f9f96622f46da9e27999da1
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb17a6609c97a951c88b93d256617d7729
 
 [halfadder]
-A/structural=A/Structural 21|./../src/HalfAdder.vhd|13|1*439342
-BinI32/structural=3*72024
+A/structural=A/Structural 21|./../src/HalfAdder.vhd|13|1*498550
+BinI32/structural=3*80504
 I=0*18752
-I/structural=I/Structural 0*93352
+I/structural=I/Structural 0*104863
 M=11|0|vc6|1481295217177|./../src/HalfAdder.vhd|0*18454*0xb724f968b93f265276f1ab3494fddf74c512971f|0*18669*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334040|./../src/HalfAdder.vhd|0*18855*0xff506bf0685a4327f80fb20000ea3582a161bfdf|0*19040*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301522859|./../src/HalfAdder.vhd|0*18855*0xff506bf0685a4327f80fb20000ea3582a161bfdf|0*19040*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/HalfAdder.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|df6222d8a183af79470a1a0a11a371eb1093b6854768ed9664634ca9f9371c7be6fd7945131ff14927c60f328d05cb44
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb44f6c00b3346361c57a0af0d4479844e
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebbfeef7d6cb80512f9a56c749b5c8e209
 
 [instructionmemory]
-A/behavioral=A/Behavioral 21|./../src/InstructionMemory.vhd|18|1*459552
-BinI32/behavioral=3*75529
+A/behavioral=A/Behavioral 21|./../src/InstructionMemory.vhd|18|1*518760
+BinI32/behavioral=3*84009
 I=0*31947
-I/behavioral=I/Behavioral 0*95365
+I/behavioral=I/Behavioral 0*106876
 M=11|0|vc6|1481295217559|./../src/InstructionMemory.vhd|0*31530*0x439219a146604f637c95d58d19a5f7f200ea9e5b|0*31848*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=M/Behavioral 21|0|vc6|1481300334282|./../src/InstructionMemory.vhd|0*88443*0xe3f53fd2040aea3dd271bdee213257d71664c095|0*89232*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=M/Behavioral 21|0|vc6|1481301523205|./../src/InstructionMemory.vhd|0*88443*0xe3f53fd2040aea3dd271bdee213257d71664c095|0*89232*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/InstructionMemory.vhd|10
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|d1182ed61ea73a0e641d9f9e1227a7c4d3caa2c06897ecf2be9fc860412dcc13fd07ec5d0c06baaadfe68e6fc24ea641
-Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4b860398ccd8d329a9710120c8c0eb870
+Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4c2e517f5cb08afa57df4b93c783a9319
 
 [instructionmemory_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/instructionmemory_TB.vhd|10|1*479690
-BinI32/tb_architecture=3*78820
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/instructionmemory_TB.vhd|10|1*538898
+BinI32/tb_architecture=3*87300
 I=0*84376
-I/tb_architecture=I/TB_ARCHITECTURE 0*97147
+I/tb_architecture=I/TB_ARCHITECTURE 0*108658
 M=11|0|vc6|1481298457214|./../src/TestBench/instructionmemory_TB.vhd|0*84019*0x5412fb78b84952dcdc36d689613dedaef2532a83|0*84261*0x5eebbfaf24833dd780412b1f91e05209
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1481300334468|./../src/TestBench/instructionmemory_TB.vhd|0*86413*0xa101b7c756ff6ce9b5d861e33ec53d3c855ba6a8|0*87420*0x856b180bf611ec746a6bfcb1befebd18
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1481301523443|./../src/TestBench/instructionmemory_TB.vhd|0*86413*0xa101b7c756ff6ce9b5d861e33ec53d3c855ba6a8|0*87420*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/TestBench/instructionmemory_TB.vhd|7
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|d1182ed61ea73a0e641d9f9e1227a7c4e1cd5a8649d7dd82c13d669bb558ffd464afa9f3c96facc0b6974b2632c0c5f2
-Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea2534ba468b78f89ac01397b8fe9b2b04
+Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea6a67af7900cc7655b9ac3ec58be39d9e
 
 [multiplexer_2to1]
-A/structural=A/Structural 21|./../src/Multiplexer_2to1.vhd|14|1*455787
-BinI32/structural=3*74665
+A/structural=A/Structural 21|./../src/Multiplexer_2to1.vhd|14|1*514995
+BinI32/structural=3*83145
 I=0*14296
-I/structural=I/Structural 0*94884
+I/structural=I/Structural 0*106395
 M=11|0|vc6|1481066863525|./../src/Multiplexer_2to1.vhd|0*13933*0xd82e17edc8497242dcbc80f8dad53e1b7f940773|0*14199*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334223|./../src/Multiplexer_2to1.vhd|0*14406*0x0199ac7f0a1e0bdf835c60c896e83cda4b9e8efd|0*14613*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301523132|./../src/Multiplexer_2to1.vhd|0*14406*0x0199ac7f0a1e0bdf835c60c896e83cda4b9e8efd|0*14613*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/Multiplexer_2to1.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|06ec0d19d623c04424b6169090414c166c0bc68a8cb86506b533fd3f10e508af9d36ee17aa0a10339973418f59776a00
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb5afcbda5a6b646ae510148953c28e8e0
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb4edd3ba747302eed0d95cf09f181a594
 
 [multiplexer_2to1_by16]
-A/structural=A/Structural 21|./../src/Multiplexer_2to1_by16.vhd|16|1*456514
+A/structural=A/Structural 21|./../src/Multiplexer_2to1_by16.vhd|16|1*515722
 I=0*12322
-I/structural=I/Structural 0*95005
+I/structural=I/Structural 0*106516
 M=11|0|vc6|1481066756631|./../src/Multiplexer_2to1_by16.vhd|0*11901*0xbc65860686f6f6f80599c292108df40691355fdd|0*12215*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334246|./../src/Multiplexer_2to1_by16.vhd|0*11161*0xe2d2bc3eb49c7169e3d01744a21c536670cdf660|0*11546*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301523162|./../src/Multiplexer_2to1_by16.vhd|0*11161*0xe2d2bc3eb49c7169e3d01744a21c536670cdf660|0*11546*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/Multiplexer_2to1_by16.vhd|8
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|06ec0d19d623c04424b6169090414c16c3530a2ce353e690697216ee11912184de0547d4cd5c23a23b6f9fb584cdc13a
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebc2f3dcf2b85df6c71ad7e51bd07b301b
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb9e30d87fc3436c19c2977541c69e5397
 
 [multiplexer_8to1]
-A/structural=A/Structural 21|./../src/Multiplexer_8to1.vhd|14|1*447411
-BinI32/structural=3*73626
+A/structural=A/Structural 21|./../src/Multiplexer_8to1.vhd|14|1*506619
+BinI32/structural=3*82106
 I=0*25726
-I/structural=I/Structural 0*94218
+I/structural=I/Structural 0*105729
 M=11|0|vc6|1481295217408|./../src/Multiplexer_8to1.vhd|0*25328*0xdfd9eb4365f11a16d6f4135ddd6d2a2bf5718948|0*25629*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334170|./../src/Multiplexer_8to1.vhd|0*25836*0x4a1f33a68ffb7c0eadacae630b3c328248de4e34|0*26208*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301523056|./../src/Multiplexer_8to1.vhd|0*25836*0x4a1f33a68ffb7c0eadacae630b3c328248de4e34|0*26208*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/Multiplexer_8to1.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|ae8591f5c16cb2e944daa6e0b13317ee4bf4f30909f37f76d80bcb13c2998f018daa497c05626d8d9a0448cc05ce9a87
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb0227430b80cbaf21539374371abff288
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb818cba53273b7d136adec09c786616e5
 
 [multiplexer_8to1_by16]
-A/structural=A/Structural 21|./../src/Multiplexer_8to1_by16.vhd|14|1*448471
+A/structural=A/Structural 21|./../src/Multiplexer_8to1_by16.vhd|14|1*507679
 I=0*27150
-I/structural=I/Structural 0*94339
+I/structural=I/Structural 0*105850
 M=11|0|vc6|1481295217442|./../src/Multiplexer_8to1_by16.vhd|0*26694*0x05f6946abbcf74d20fb486ddd0f67b567eccaefd|0*27043*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334194|./../src/Multiplexer_8to1_by16.vhd|0*27265*0x3f86105df989ee89edbadaaa96d5f6b14f2445dd|0*27750*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301523087|./../src/Multiplexer_8to1_by16.vhd|0*27265*0x3f86105df989ee89edbadaaa96d5f6b14f2445dd|0*27750*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/Multiplexer_8to1_by16.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|ae8591f5c16cb2e944daa6e0b13317eed30a12dc43769020f05a0405d034510869c5f60e617368ca427545a85750ae0b
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb4db9843a64e5f0865db43581bc772a6b
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb82e267bbeecf3248cb1229df6cd3bbb7
 
 [multiplier_16]
-A/behavioral=A/Behavioral 21|./../src/Multiplier_16.vhd|15|1*445976
-BinI32/behavioral=3*73263
+A/behavioral=A/Behavioral 21|./../src/Multiplier_16.vhd|15|1*505184
+BinI32/behavioral=3*81743
 I=0*24262
-I/behavioral=I/Behavioral 0*94038
+I/behavioral=I/Behavioral 0*105549
 M=11|0|vc6|1481295217377|./../src/Multiplier_16.vhd|0*23861*0xc61ea93ada0897b0300ba985d3881ec8f26af1cf|0*24171*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=M/Behavioral 21|0|vc6|1481300334148|./../src/Multiplier_16.vhd|0*24431*0xf7e9dc5128313286b0da5dee3e4255d5addbe140|0*24816*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=M/Behavioral 21|0|vc6|1481301523024|./../src/Multiplier_16.vhd|0*24431*0xf7e9dc5128313286b0da5dee3e4255d5addbe140|0*24816*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/Multiplier_16.vhd|7
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|6a7f4b5f8471a03a6b83ef32a639633f7f56e66af6d13193de6072af0b1206f41012498232250475d138d36ca3986e65
-Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4cfdfd829580f237ad0152a7b435a4e64
+Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4d7c999b01f7b1257e043f0ee81704249
 
 [pc]
-A/behavioral=A/Behavioral 21|./../src/ProgramCounter.vhd|14|1*467176
-BinI32/behavioral=3*77464
+A/behavioral=A/Behavioral 21|./../src/ProgramCounter.vhd|14|1*526384
+BinI32/behavioral=3*85944
 I=0*59971
-I/behavioral=I/Behavioral 0*96129
+I/behavioral=I/Behavioral 0*107640
 M=11|0|vc6|1481295507829|./../src/ProgramCounter.vhd|0*59643*0x834f5b4b66d1a822dbc81eaa095cd33657ff8658|0*59890*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=M/Behavioral 21|0|vc6|1481300334399|./../src/ProgramCounter.vhd|0*60067*0x7dd6064a4f5804f0e963fe3608ccf34c0068ab3f|0*60265*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=M/Behavioral 21|0|vc6|1481301523363|./../src/ProgramCounter.vhd|0*60067*0x7dd6064a4f5804f0e963fe3608ccf34c0068ab3f|0*60265*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/ProgramCounter.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|e4c3b9c1a0cb632b487294b82186bd9d33137529a1acbb026e0286548334a953
-Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff45e27413c1e51a6e487d28b66dea35a95
+Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff40484ca001587369c555b42a16d2e26fd
 
 [pc_increment]
-A/behavioral=A/Behavioral 21|./../src/PC_increment.vhd|14|1*466098
-BinI32/behavioral=3*77195
+A/behavioral=A/Behavioral 21|./../src/PC_increment.vhd|14|1*525306
+BinI32/behavioral=3*85675
 I=0*58765
-I/behavioral=I/Behavioral 0*95950
+I/behavioral=I/Behavioral 0*107461
 M=11|0|vc6|1481295507797|./../src/PC_increment.vhd|0*58396*0x45289ea5cef483a28acaad8a0a3ae3ed8f07e54d|0*58676*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=M/Behavioral 21|0|vc6|1481300334377|./../src/PC_increment.vhd|0*58933*0x01f986f1517e25a10c79a81650383d0be5407ef0|0*59169*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=M/Behavioral 21|0|vc6|1481301523332|./../src/PC_increment.vhd|0*58933*0x01f986f1517e25a10c79a81650383d0be5407ef0|0*59169*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/PC_increment.vhd|7
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|32cc400edcd0943843cebd784222542b4a7c3e2bf92813936a3700b100737d5d888424b8b3482ef144dfdafcd0468d93
-Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4564c223ed17fdad3cf8040e0d65ac667
+Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff44af2411701b33161916fa993fe87516a
 
 [processor]
-A/structure=21|./../src/Processor.vhd|9|1*468104
+A/structure=21|./../src/Processor.vhd|9|1*556747
 I=0*5299
-I/structure=0*96236
+I/structure=0*115319
 M=11|0|vc6|1481066017541|./../src/Processor.vhd|0*5004*0x3db9aff2f9ff9f87c5180b9be202095590717900|0*5216*0x5eebbfaf24833dd780412b1f91e05209
-M/structure=21|0|vc6|1481300334427|./../src/Processor.vhd|0*63984*0xd7c4c1717b4c21ff7f118e1a41b7c71b97987504|0*66974*0x856b180bf611ec746a6bfcb1befebd18
+M/structure=21|0|vc6|1481302112565|./../src/Processor.vhd|0*111310*0x28dacf818167a7428de58a168932bba4a0fb35ae|0*114300*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/Processor.vhd|5
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|0ba77dee7e73996b5655ae47cd2cf07e7c4c90057ca4c0d4118ab0a7474483369703c32734c8e0e592b7611da7d95a10
-Version/structure=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa680649b851d57c0ed72970c25fa95afcb46
+Version/structure=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa68020e83f1857bd16c2e63971ef2d7059a3
+
+[processor_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/processor_TB.vhd|10|1*555084
+BinI32/tb_architecture=3*88984
+I=0*109597
+I/tb_architecture=I/TB_ARCHITECTURE 0*115079
+M=11|0|vc6|1481301523515|./../src/TestBench/processor_TB.vhd|0*109288*0xfe4ebf7122a576658b7d25cbdbca2c45a2c5641d|0*109498*0x5eebbfaf24833dd780412b1f91e05209
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1481302109268|./../src/TestBench/processor_TB.vhd|0*109765*0x7bcec77c9aac943c8c422abc20dc00710798bd73|0*110424*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/processor_TB.vhd|7
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|520fc2cd04c0649ab816729476a27aaac0ff7f5d7d907d14f4d8748f44154fc1ae5a4afc0dd2d477ea17ca9633ab11a8
+Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beaf2081a5a50302ed1cb78233e88fdb8d1
 
 [ram]
-A/behavioral=21|./../src/DataMemory.vhd|18|1*461172
-BinI32/behavioral=3*75760
+A/behavioral=21|./../src/DataMemory.vhd|18|1*520380
+BinI32/behavioral=3*84240
 I=0*624
-I/behavioral=0*95549
+I/behavioral=0*107060
 M=11|0|vc6|1480879967167|./../src/DataMemory.vhd|0*210*0xe7693e17a5ab4d6ae253c01f9e237cdf05f72618|0*546*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=21|0|vc6|1481300334308|./../src/DataMemory.vhd|0*83106*0x0158a3ecc366b571522947834d36c4cc68ad94f6|0*83611*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=21|0|vc6|1481301523236|./../src/DataMemory.vhd|0*83106*0x0158a3ecc366b571522947834d36c4cc68ad94f6|0*83611*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/DataMemory.vhd|8
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|a936fc2a703b3f48871772595baaafebb746ddf421ff5893cceab9528a52f174
-Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff422a3714452155c559a0238aa42638bd9
+Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4a15d3754805b65548b51a28360cb0eeb
 
 [ram_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/ram_TB.vhd|10|1*476693
-BinI32/tb_architecture=3*77823
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/ram_TB.vhd|10|1*535901
+BinI32/tb_architecture=3*86303
 I=0*71711
-I/tb_architecture=I/TB_ARCHITECTURE 0*96919
+I/tb_architecture=I/TB_ARCHITECTURE 0*108430
 M=11|0|vc6|1481297428169|./../src/TestBench/ram_TB.vhd|0*71438*0x29494150780b733b99c9acad5ec46908701fcebf|0*71624*0x5eebbfaf24833dd780412b1f91e05209
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1481300334435|./../src/TestBench/ram_TB.vhd|0*81446*0x81abe2dafd86865c291148d7e0b4a567fb085d7b|0*82772*0x856b180bf611ec746a6bfcb1befebd18
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1481301523406|./../src/TestBench/ram_TB.vhd|0*81446*0x81abe2dafd86865c291148d7e0b4a567fb085d7b|0*82772*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/TestBench/ram_TB.vhd|7
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|676b75c08187e1a38c3506285f953c428661e0f95de807514e3a15a548499d7b
-Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea0d652ad1186698e09f91c7f0437e3638
+Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea4bae41959d0c97b8eb05824f39fcc611
 
 [reg]
-A/behavioral=21|./../src/RegisterFile.vhd|13|1*457921
-BinI32/behavioral=3*74921
+A/behavioral=21|./../src/RegisterFile.vhd|13|1*565336
+BinI32/behavioral=3*89522
 I=0*44671
-I/behavioral=0*95195
+I/behavioral=0*116555
 M=11|0|vc6|1481295373732|./../src/RegisterFile.vhd|0*44229*0xbc16a5405409034da0dad24b70936102d86516c0|0*44591*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=21|0|vc6|1481300334253|./../src/RegisterFile.vhd|0*8559*0x142a35557adfb08b38b2587be9d52078fed29b00|0*9018*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=21|0|vc6|1481302229453|./../src/RegisterFile.vhd|0*116002*0x648cec3f1a041ceb4cb99722f598d186397d1976|0*116461*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/RegisterFile.vhd|5
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|2f1e3c7d0bba65891d8ae1d559ceb6ddf17970b1b5c6f347a535292b4bae1f55
-Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff426e125a1c5a73861b9764bc7e021b273
+Version/behavioral=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4924d6a4c77aa3d8368506323f2a9eae2
 
 [signextend]
-A/structural=A/Structural 21|./../src/SignExtend.vhd|13|1*464434
-BinI32/structural=3*76846
+A/structural=A/Structural 21|./../src/SignExtend.vhd|13|1*523642
+BinI32/structural=3*85326
 I=0*17160
-I/structural=I/Structural 0*95835
+I/structural=I/Structural 0*107346
 M=11|0|vc6|1481067528370|./../src/SignExtend.vhd|0*16827*0x824c5f5e292a60b8102929d96d13c707fd618769|0*17075*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334354|./../src/SignExtend.vhd|0*17657*0xe185a3152912b6462cebafd1ec0370f13197499b|0*18052*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301523300|./../src/SignExtend.vhd|0*17657*0xe185a3152912b6462cebafd1ec0370f13197499b|0*18052*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/SignExtend.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|f229b90f8d448964ce8e8703aee8e51de82757884cf01ea5c6a7b9482f234a92a23bd476d4e5e576e04ecfde8a45f994
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb8f5e3c39c8d8f14e67ba6c05232095f5
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb35c584c735b0f212c7a80bbae9a67758
 
 [subtractor_16]
-A/structural=A/Structural 21|./../src/Subtractor_16.vhd|14|1*443739
-BinI32/structural=3*72754
+A/structural=A/Structural 21|./../src/Subtractor_16.vhd|14|1*502947
+BinI32/structural=3*81234
 I=0*22645
-I/structural=I/Structural 0*93863
+I/structural=I/Structural 0*105374
 M=11|0|vc6|1481295217328|./../src/Subtractor_16.vhd|0*22274*0xa98b5eb0a72be3bf18f3dac1bb3bddfe56eda012|0*22554*0x5eebbfaf24833dd780412b1f91e05209
-M/structural=M/Structural 21|0|vc6|1481300334123|./../src/Subtractor_16.vhd|0*22752*0x848db5b034490e3a88b634cff7b01e53df9151cc|0*23358*0x856b180bf611ec746a6bfcb1befebd18
+M/structural=M/Structural 21|0|vc6|1481301522990|./../src/Subtractor_16.vhd|0*22752*0x848db5b034490e3a88b634cff7b01e53df9151cc|0*23358*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/Subtractor_16.vhd|6
 Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|4874b9a84398fc20811f8971f742a66185d8a1bd345e729c84d20c4dcc3b1e3aea3bd81e513978e64813d8926e78a3f2
-Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb1e4c6c3f76b06b9bd007b074be1fcec6
+Version/structural=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3eb0afbd62534fd70aaceecee0eb7e2cd5f
 
 [testbench_for_controlunit]
 Configures=controlunit_tb.TB_ARCHITECTURE
-E=1*498088
+E=1*544370
 I=0*104750
-M=2|0|vc6|1481301064539|./../src/TestBench/controlunit_TB.vhd|0*104308*0xc204d7073fb78e3138eaf8e2dbbbd56e8a4432d4|0*104619*0x856b180bf611ec746a6bfcb1befebd18
+M=2|0|vc6|1481301523491|./../src/TestBench/controlunit_TB.vhd|0*104308*0xc204d7073fb78e3138eaf8e2dbbbd56e8a4432d4|0*104619*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/TestBench/controlunit_TB.vhd|81
-Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e53f84428e1e9f6ab999d2eb740ecb4382cee6719f78cd3999b21403b7eea3b9c3c3e7fdaa2559d9ae80242f32c90c64c9
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e53f84428e1e9f6ab999d2eb740ecb4382cee6719f78cd3999b21403b7eea3b9c3806f6f982e8926e33b950f4aae6a5703
 
 [testbench_for_instructionmemory]
 Configures=instructionmemory_tb.TB_ARCHITECTURE
-E=1*481927
+E=1*541135
 I=0*88318
-M=2|0|vc6|1481300334474|./../src/TestBench/instructionmemory_TB.vhd|0*87810*0x79262628edaad01c71a913dc5b7ebeca3b000f3c|0*88169*0x856b180bf611ec746a6bfcb1befebd18
+M=2|0|vc6|1481301523449|./../src/TestBench/instructionmemory_TB.vhd|0*87810*0x79262628edaad01c71a913dc5b7ebeca3b000f3c|0*88169*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/TestBench/instructionmemory_TB.vhd|69
-Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5362c387fef514ffa36f4da55e80fbb1a23a488230539f2d9d14f98c1ec796e6c2269d5333021aae0bf6a43e9b9cf7e29
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5362c387fef514ffa36f4da55e80fbb1a23a488230539f2d9d14f98c1ec796e6c489a594ea8a0120bff7f5910e4c550ee
+
+[testbench_for_processor]
+Configures=processor_tb.TB_ARCHITECTURE
+E=1*556296
+I=0*111201
+M=2|0|vc6|1481302109274|./../src/TestBench/processor_TB.vhd|0*110782*0xe10a7d44fbe4fb7abccb38cb63cfca4ca5fbdf2f|0*111076*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/processor_TB.vhd|54
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e57e9128c24f757fee8bae76c92952309926527262ddaa47cb266f3a3c4d9b973a2064f852ee5de70dcfc971c100dbb2af
 
 [testbench_for_ram]
 Configures=ram_tb.TB_ARCHITECTURE
-E=1*479268
+E=1*538476
 I=0*77782
-M=2|0|vc6|1481300334439|./../src/TestBench/ram_TB.vhd|0*77428*0xd04b813db018dc9bd66dacc0e0048d83e7688091|0*77675*0x856b180bf611ec746a6bfcb1befebd18
+M=2|0|vc6|1481301523412|./../src/TestBench/ram_TB.vhd|0*77428*0xd04b813db018dc9bd66dacc0e0048d83e7688091|0*77675*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/TestBench/ram_TB.vhd|77
-Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5a4a2d4ebed62afcc6575d458e7057cb439a8748c62152e9b690db0dcb6b111ad
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5a4a2d4ebed62afcc6575d458e7057cb482ef10743ec4766fb77d2c9ad046fed5
 
 [~MFT]
-0=22|0Processor.mgf|104750|67145
-1=4|1Processor.mgf|498088|411520
-3=2|3Processor.mgf|79665|72024
+0=8|0Processor.mgf|116555|76855
+1=2|1Processor.mgf|565336|478274
+3=2|3Processor.mgf|89522|81112
 
 [~U]
 adder_16=Adder_16 11|0*20481|
@@ -278,6 +297,7 @@ multiplier_16=Multiplier_16 11|0*23638|
 pc=PC 11|0*59451|
 pc_increment=PC_increment 11|0*58193|
 processor=Processor 11|0*4829|
+processor_tb=11|0*109158|
 ram=RAM 11|0*0|
 ram_tb=11|0*71320|
 reg=11|0*43999|
@@ -285,4 +305,5 @@ signextend=SignExtend 11|0*16622|
 subtractor_16=Subtractor_16 11|0*22059|
 testbench_for_controlunit=TESTBENCH_FOR_controlunit 2||
 testbench_for_instructionmemory=TESTBENCH_FOR_instructionmemory 2||
+testbench_for_processor=TESTBENCH_FOR_processor 2||
 testbench_for_ram=TESTBENCH_FOR_ram 2||

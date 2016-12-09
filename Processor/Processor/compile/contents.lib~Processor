@@ -1,4 +1,4 @@
-58
+63
 ~E 1 "./../src/Adder_16.vhd" 6 Adder_16
 ~A 1 "./../src/Adder_16.vhd" 14 Structural
 ~E 1 "./../src/ALU_16.vhd" 6 ALU_16
@@ -31,6 +31,8 @@
 ~A 1 "./../src/PC_increment.vhd" 14 Behavioral
 ~E 1 "./../src/Processor.vhd" 5 Processor
 ~A 1 "./../src/Processor.vhd" 9 structure
+~E 1 "./../src/TestBench/processor_TB.vhd" 7 processor_tb
+~A 1 "./../src/TestBench/processor_TB.vhd" 10 TB_ARCHITECTURE
 ~E 1 "./../src/DataMemory.vhd" 8 RAM
 ~A 1 "./../src/DataMemory.vhd" 18 behavioral
 ~E 1 "./../src/TestBench/ram_TB.vhd" 7 ram_tb
@@ -43,4 +45,5 @@
 ~A 1 "./../src/Subtractor_16.vhd" 14 Structural
 ~C 1 "./../src/TestBench/controlunit_TB.vhd" 81 testbench_for_controlunit
 ~C 1 "./../src/TestBench/instructionmemory_TB.vhd" 69 testbench_for_instructionmemory
+~C 1 "./../src/TestBench/processor_TB.vhd" 54 testbench_for_processor
 ~C 1 "./../src/TestBench/ram_TB.vhd" 77 testbench_for_ram
