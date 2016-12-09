@@ -1,4 +1,4 @@
-LIBRARY IEEE;
+																												 																					 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.NUMERIC_STD.ALL;
 
@@ -25,7 +25,7 @@ SIGNAL Status: STD_LOGIC_VECTOR(2 DOWNTO 0);
 BEGIN
 
 UUT: ALU_16
-	PORT MAP{
+	PORT MAP(
 		A => A,
 		B => B,
 		R => R,
@@ -33,7 +33,7 @@ UUT: ALU_16
 		S1 => S1,
 		S2 => S2,
 		Status => Status
-	};
+	);
 
 -----------------------------
 -- 000 Addition
@@ -44,32 +44,32 @@ UUT: ALU_16
 -----------------------------
 PROCESS
 BEGIN
-	A <= "2";
-	B <= "3";
+	A <= x"0002";
+	B <= x"0003";
 
-	S0 <= "0";
-	S1 <= "0";
-	S2 <= "0";
-	WAIT FOR 20NS;
+	S0 <= '0';
+	S1 <= '0';
+	S2 <= '0';
+	WAIT FOR 1US;
 
-	S0 <= "0";
-	S1 <= "0";
-	S2 <= "1";
-	WAIT FOR 20NS;
+	S0 <= '0';
+	S1 <= '0';
+	S2 <= '1';
+	WAIT FOR 1US;
 	
-	S0 <= "0";
-	S1 <= "1";
-	S2 <= "0";
-	WAIT FOR 20NS;
+	S0 <= '0';
+	S1 <= '1';
+	S2 <= '0';
+	WAIT FOR 1US;
 	
-	S0 <= "0";
-	S1 <= "1";
-	S2 <= "1";
-	WAIT FOR 20NS;
+	S0 <= '0';
+	S1 <= '1';
+	S2 <= '1';
+	WAIT FOR 1US;
 
-	S0 <= "1";
-	S1 <= "0";
-	S2 <= "0";
-	WAIT FOR 20NS;
-
+	S0 <= '1';
+	S1 <= '0';
+	S2 <= '0';
+	WAIT FOR 1US;
+end process;
 END ARCHITECTURE;

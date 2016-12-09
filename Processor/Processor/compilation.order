@@ -20,3 +20,5 @@
 .\src\TestBench\instructionmemory_TB.vhd
 .\src\TestBench\controlunit_TB.vhd
 .\src\TestBench\processor_TB.vhd
+.\src\TestBench\alu_16_TB.vhd
+.\src\TestBench\reg_TB.vhd

@@ -39,7 +39,7 @@ architecture TB_ARCHITECTURE of processor_tb is
 
 begin
 	-- clock generator:
-	clk_gen(clk, 50.000E6); --50MHz clock
+	clk_gen(clk, 10.000E3); --10KHz clock
 	
 	-- Unit Under Test port map
 	UUT : processor

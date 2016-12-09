@@ -86,7 +86,7 @@ end component RAM;
 -----------------------------------------------------------------------
 -- Signals:
 -----------------------------------------------------------------------
-SIGNAL readReg1, readReg2, dataIn, instr: std_logic_vector(15 DOWNTO 0);
+SIGNAL instr: std_logic_vector(15 DOWNTO 0);
 --control signals
 SIGNAL ALUop, ALUstatus : std_logic_vector(2 downto 0);
 SIGNAL MemRead, MemToReg, MemWrite, ALUsource, RegWrite : std_logic;

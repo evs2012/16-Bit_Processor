@@ -47,7 +47,7 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=controlunit_tb|TB_ARCHITECTURE|0 processor_tb|TB_ARCHITECTURE|0 
+HierarchyInformation=alu_tb|behavioral|0 processor_tb|TB_ARCHITECTURE|0 reg_tb|behavioral|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -81,6 +81,10 @@ TestBench=1
 /ControlUnit_tb_Simulation.awc=-1
 /Processor_tb_Simulation.asdb=-1
 /Processor_tb_Simulation.awc=-1
+/ALU_tb_Simulation.asdb=-1
+/ALU_tb_Simulation.awc=-1
+/Regs_tb_Simulation.asdb=-1
+/Regs_tb_Simulation.awc=-1
 TestBench/ram_TB.vhd=-1
 TestBench/ram_TB_runtest.do=-1
 TestBench/instructionmemory_TB.vhd=-1
@@ -89,6 +93,10 @@ TestBench/controlunit_TB.vhd=-1
 TestBench/controlunit_TB_runtest.do=-1
 TestBench/processor_TB.vhd=-1
 TestBench/processor_TB_runtest.do=-1
+TestBench/alu_16_TB.vhd=-1
+TestBench/alu_16_TB_runtest.do=-1
+TestBench/reg_TB.vhd=-1
+TestBench/reg_TB_runtest.do=-1
 
 [Files.Data]
 .\src\HalfAdder.vhd=VHDL Source Code
@@ -117,6 +125,10 @@ TestBench/processor_TB_runtest.do=-1
 .\src\ControlUnit_tb_Simulation.awc=Accelerated Waveform Configuration
 .\src\Processor_tb_Simulation.asdb=Accelerated Waveform File
 .\src\Processor_tb_Simulation.awc=Accelerated Waveform Configuration
+.\src\ALU_tb_Simulation.asdb=Accelerated Waveform File
+.\src\ALU_tb_Simulation.awc=Accelerated Waveform Configuration
+.\src\Regs_tb_Simulation.asdb=Accelerated Waveform File
+.\src\Regs_tb_Simulation.awc=Accelerated Waveform Configuration
 .\src\TestBench\ram_TB.vhd=VHDL Test Bench
 .\src\TestBench\ram_TB_runtest.do=Macro
 .\src\TestBench\instructionmemory_TB.vhd=VHDL Test Bench
@@ -125,4 +137,8 @@ TestBench/processor_TB_runtest.do=-1
 .\src\TestBench\controlunit_TB_runtest.do=Macro
 .\src\TestBench\processor_TB.vhd=VHDL Test Bench
 .\src\TestBench\processor_TB_runtest.do=Macro
+.\src\TestBench\alu_16_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_16_TB_runtest.do=Macro
+.\src\TestBench\reg_TB.vhd=VHDL Test Bench
+.\src\TestBench\reg_TB_runtest.do=Macro
 

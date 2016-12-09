@@ -1,8 +1,10 @@
-63
+10
 ~E 1 "./../src/Adder_16.vhd" 6 Adder_16
 ~A 1 "./../src/Adder_16.vhd" 14 Structural
 ~E 1 "./../src/ALU_16.vhd" 6 ALU_16
 ~A 1 "./../src/ALU_16.vhd" 15 Structural
+~E 1 "./../src/TestBench/alu_16_TB.vhd" 5 alu_tb
+~A 1 "./../src/TestBench/alu_16_TB.vhd" 8 behavioral
 ~E 1 "./../src/ControlUnit.vhd" 34 ControlUnit
 ~A 1 "./../src/ControlUnit.vhd" 42 Structural
 ~E 1 "./../src/TestBench/controlunit_TB.vhd" 7 controlunit_tb
@@ -39,6 +41,8 @@
 ~A 1 "./../src/TestBench/ram_TB.vhd" 10 TB_ARCHITECTURE
 ~E 1 "./../src/RegisterFile.vhd" 5 reg
 ~A 1 "./../src/RegisterFile.vhd" 13 behavioral
+~E 1 "./../src/TestBench/reg_TB.vhd" 5 reg_tb
+~A 1 "./../src/TestBench/reg_TB.vhd" 8 behavioral
 ~E 1 "./../src/SignExtend.vhd" 6 SignExtend
 ~A 1 "./../src/SignExtend.vhd" 13 Structural
 ~E 1 "./../src/Subtractor_16.vhd" 6 Subtractor_16
