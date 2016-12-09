@@ -14,3 +14,5 @@ i<>.\src\Multiplier_16.vhd
 i<>.\src\Subtractor_16.vhd
 i<>.\src\InstructionDecode.vhd
 i<>.\src\SignExtend.vhd
+i<>.\src\PC_increment.vhd
+i<>.\src\ProgramCounter.vhd

@@ -5,7 +5,7 @@ USE IEEE.NUMERIC_STD.ALL;
 ENTITY reg is
 	PORT(clk, regWrite: IN std_logic;
 		WriteData: IN std_logic_vector(15 DOWNTO 0);
-		WriteRegister, Reg1, Reg2: IN std_logic_vector(4 DOWNTO 0);
+		WriteRegister, Reg1, Reg2: IN std_logic_vector(3 DOWNTO 0);
 		Reg1Data, Reg2Data: OUT std_logic_vector(15 DOWNTO 0)
 		);
 END ENTITY reg;

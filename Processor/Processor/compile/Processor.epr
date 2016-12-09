@@ -1,2 +1,19 @@
-"e:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\HalfAdder.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\FullAdder.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Adder_16.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Subtractor_16.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplier_16.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_8to1_by16.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ALU_16.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Multiplexer_2to1_by16.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\RegisterFile.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\InstructionMemory.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\DataMemory.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ControlUnit.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\SignExtend.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\PC_increment.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\ProgramCounter.vhd" VHDL Processor 1 0 0 -02
+"E:\School\ECE 443 Computer Architecture\16-Bit_Processor\Processor\Processor\src\Processor.vhd" VHDL Processor 1 0 0 -02
 . . 0 0 0
