@@ -47,29 +47,12 @@ UCF=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=instructionmemory_tb|TB_ARCHITECTURE|0 ram_tb|TB_ARCHITECTURE|0 
 ShowHide=ShowTopLevel
 Selected=
 
-[Files.Data]
-.\src\HalfAdder.vhd=VHDL Source Code
-.\src\FullAdder.vhd=VHDL Source Code
-.\src\Adder_16.vhd=VHDL Source Code
-.\src\Subtractor_16.vhd=VHDL Source Code
-.\src\Multiplier_16.vhd=VHDL Source Code
-.\src\Multiplexer_8to1.vhd=VHDL Source Code
-.\src\Multiplexer_8to1_by16.vhd=VHDL Source Code
-.\src\ALU_16.vhd=VHDL Source Code
-.\src\Multiplexer_2to1.vhd=VHDL Source Code
-.\src\Multiplexer_2to1_by16.vhd=VHDL Source Code
-.\src\RegisterFile.vhd=VHDL Source Code
-.\src\InstructionMemory.vhd=VHDL Source Code
-.\src\DataMemory.vhd=VHDL Source Code
-.\src\ControlUnit.vhd=VHDL Source Code
-.\src\SignExtend.vhd=VHDL Source Code
-.\src\Processor.vhd=VHDL Source Code
-.\src\PC_increment.vhd=VHDL Source Code
-.\src\ProgramCounter.vhd=VHDL Source Code
+[Groups]
+TestBench=1
 
 [Files]
 /HalfAdder.vhd=-1
@@ -90,4 +73,40 @@ Selected=
 /PC_increment.vhd=-1
 /ProgramCounter.vhd=-1
 /Processor.vhd=-1
+/ram_tb_Simulation.asdb=-1
+/ram_tb_Simulation.awc=-1
+/InstructionMemory_tb_Simulation.asdb=-1
+/InstructionMemory_tb_Simulation.awc=-1
+TestBench/ram_TB.vhd=-1
+TestBench/ram_TB_runtest.do=-1
+TestBench/instructionmemory_TB.vhd=-1
+TestBench/instructionmemory_TB_runtest.do=-1
+
+[Files.Data]
+.\src\HalfAdder.vhd=VHDL Source Code
+.\src\FullAdder.vhd=VHDL Source Code
+.\src\Adder_16.vhd=VHDL Source Code
+.\src\Subtractor_16.vhd=VHDL Source Code
+.\src\Multiplier_16.vhd=VHDL Source Code
+.\src\Multiplexer_8to1.vhd=VHDL Source Code
+.\src\Multiplexer_8to1_by16.vhd=VHDL Source Code
+.\src\ALU_16.vhd=VHDL Source Code
+.\src\Multiplexer_2to1.vhd=VHDL Source Code
+.\src\Multiplexer_2to1_by16.vhd=VHDL Source Code
+.\src\RegisterFile.vhd=VHDL Source Code
+.\src\InstructionMemory.vhd=VHDL Source Code
+.\src\DataMemory.vhd=VHDL Source Code
+.\src\ControlUnit.vhd=VHDL Source Code
+.\src\SignExtend.vhd=VHDL Source Code
+.\src\PC_increment.vhd=VHDL Source Code
+.\src\ProgramCounter.vhd=VHDL Source Code
+.\src\Processor.vhd=VHDL Source Code
+.\src\ram_tb_Simulation.asdb=Accelerated Waveform File
+.\src\ram_tb_Simulation.awc=Accelerated Waveform Configuration
+.\src\InstructionMemory_tb_Simulation.asdb=Accelerated Waveform File
+.\src\InstructionMemory_tb_Simulation.awc=Accelerated Waveform Configuration
+.\src\TestBench\ram_TB.vhd=VHDL Test Bench
+.\src\TestBench\ram_TB_runtest.do=Macro
+.\src\TestBench\instructionmemory_TB.vhd=VHDL Test Bench
+.\src\TestBench\instructionmemory_TB_runtest.do=Macro
 
