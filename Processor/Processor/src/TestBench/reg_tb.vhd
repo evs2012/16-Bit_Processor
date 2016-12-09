@@ -19,7 +19,7 @@ SIGNAL Reg1Data, Reg2Data, WriteData: STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL WriteRegister, Reg1, Reg2: STD_LOGIC_VECTOR(3 DOWNTO 0);
 
 UUT: reg
-	PORT MAP{
+	PORT MAP(
 	clk => clk,
 	regWrite => regWrite,
 	WriteData => WriteData,
@@ -28,23 +28,23 @@ UUT: reg
 	Reg2 => Reg2,
 	Reg1Data => Reg1Data,
 	Reg2Data => Reg2Data
-	};
+	);
 
 PROCESS
 BEGIN
-regWrite <= "1";
-clk <=  "1" WAIT FOR 5NS;
+regWrite <= '1';
+clk <=  '1' WAIT FOR 5NS;
 clk <= "0" WAIT FOR 5NS;
 
-WriteData <= x"5";
-WriteRegister <= "1";
+WriteData <= x'0005';
+WriteRegister <= '1';
 WAIT FOR 20NS;
 
-clk <=  "1" WAIT FOR 5NS;
-clk <= "0" WAIT FOR 5NS;
+clk <=  '1' WAIT FOR 5NS;
+clk <= 0' WAIT FOR 5NS;
 
-Reg1 <= x"7";
-Reg2 <= "2";
+Reg1 <= x"0007";
+Reg2 <= x"0002";
 WAIT FOR 20NS;
 
 END PROCESS;
